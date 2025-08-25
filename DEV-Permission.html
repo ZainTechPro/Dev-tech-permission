@@ -316,7 +316,7 @@
         function renderFoldersList() {
             const container = document.getElementById('foldersList');
             if (folders.length > 0) {
-                container.innerHTML = `<p><strong>المجلدات المضافوة:</strong> ${folders.join('، ')}</p>`;
+                container.innerHTML = `<p><strong>المجلدات المضافون:</strong> ${folders.join('، ')}</p>`;
             } else {
                 container.innerHTML = '<p>لم يتم إضافة أي مجلدات بعد</p>';
             }
@@ -547,4 +547,5 @@
         window.onload = initApp;
     </script>
 </body>
+
 </html>
